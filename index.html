@@ -224,7 +224,7 @@
         function style_TanzaniaNationalparks2023_1_0() {
             return {
                 pane: 'pane_TanzaniaNationalparks2023_1',
-                opacity: 1,
+                opacity: 0.7,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '6.0,3.0',
                 lineCap: 'butt',
@@ -237,7 +237,6 @@
         map.createPane('pane_TanzaniaNationalparks2023_1');
         map.getPane('pane_TanzaniaNationalparks2023_1').style.zIndex = 401;
         map.getPane('pane_TanzaniaNationalparks2023_1').style['mix-blend-mode'] = 'normal';
-		map.getPane('pane_TanzaniaNationalParks2016_1').style.opacity = 0.7;
         var layer_TanzaniaNationalparks2023_1 = new L.geoJson(json_TanzaniaNationalparks2023_1, {
             attribution: '',
             interactive: true,
